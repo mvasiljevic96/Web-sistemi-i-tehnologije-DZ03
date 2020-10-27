@@ -1,0 +1,164 @@
+*
+{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    background-image: url("../images/pozadina.jpg");
+}
+.container
+{
+    width: 90%;
+    margin:0 auto;
+}
+
+.logo
+{
+  display: inline-block;
+}
+
+
+.header 
+{
+    padding: 20px;
+    text-align: center;
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;  
+}
+
+ul li
+{
+    float: left;
+    width: 25%;
+    background-color: #b34e5a; 
+    height: 35px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+ul li a
+{
+    display: block;
+    text-decoration: none;
+    color:white;
+    border-radius: 20px;
+}
+
+ul li a:hover
+{
+    background-color: #5e534ea2;
+}
+
+.sadrzaj
+{
+
+    background-color: rgb(193,196,167);
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.leviDio
+{
+
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 85px;
+    padding: 60px;
+    border-radius: 20px;
+    border: 2px solid white;
+    
+}
+
+
+
+.centar
+{
+    width: 60%;
+    display: inline-block;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+
+.centar .proizvod
+{
+
+    width: 40%;
+    display: inline-block;
+    border-radius: 20px;
+    background: url(../images/divpozadina.png);
+    margin: 5px;
+    padding: 15px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.centar .proizvod #inKol
+{
+    width: 40px;
+}
+
+.centar .proizvod input
+{
+    width: 120px;
+}
+
+.naslov
+{
+    
+    
+    background: url(../images/divpozadina.png);
+    border-radius: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+
+
+}
+
+.centar img
+{
+    width:  100%;
+    height: 300px;
+}
+
+.desniDio
+{
+    width: 19%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 85px;
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid white;
+
+}
+
+.desniDio img
+{
+    width: 100%;
+}
+
+.footer
+{
+    
+    text-align: right;
+    background-color: rgb(193,196,167);
+    font-size: 20px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
